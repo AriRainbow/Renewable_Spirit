@@ -9,3 +9,15 @@
 
 # Optional: If you add environment files later
 .env
+
+# CSS source maps
+*.css.map
+
+# JavaScript source maps
+*.js.map
+
+# Node.js dependencies
+node_modules/
+
+# Build output directory
+dist/
