@@ -4,13 +4,8 @@ body {
     padding: 0;
     overflow: hidden;
     height: 100vh;
-}
-
-#background-video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background-image: url('path-to-your-image.png'); /* Add the path to your PNG image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
