@@ -11,6 +11,23 @@ header {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Cardboard Layer */
+header::before {
+    content: '';
+    position: absolute;
+    top: 10px; /* Adjust to control the burlap visibility */
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background-image: url('../images/cardboard.png'); /* Cardboard texture */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 0; /* Ensures this layer stays behind the content */
+    border-radius: 5px; /* Optional rounded corners for the cardboard */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
 header .logo {
     display: flex;
     align-items: center;
