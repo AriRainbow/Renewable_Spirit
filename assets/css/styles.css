@@ -31,7 +31,6 @@ header::before {
 
 header .logo {
     display: flex;
-    flex-direction: column;  /* stack elements vertically */
     align-items: center;
     z-index: 1;  /* content stays above cardboard */
 }
@@ -41,7 +40,13 @@ header .logo img {
     margin-right: 15px;
 }
 
-header .logo h1 {
+header .logo-text {
+    display: flex;
+    flex-direction: column; /* Stack the name and tagline */
+    align-items: flex-start; /* Align text to the left */
+}
+
+header .logo-text h1 {
     font-family: 'Sanchez', serif;
     font-size: 28px;
     color: #505569; /* Adjust color based on branding */
