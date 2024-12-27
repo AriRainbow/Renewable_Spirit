@@ -50,7 +50,7 @@ header .logo-text h1 {
     font-family: 'Sanchez', serif;
     font-size: 36px;
     color: #505569; /* Adjust color based on branding */
-    margin: 0;
+    margin-top: 2.5px;
 }
 
 header .logo .tagline {
