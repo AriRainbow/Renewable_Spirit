@@ -1,21 +1,25 @@
 /* Basic Header Styling */
 header {
     position: relative; /* Ensures the cardboard layer and content are positioned correctly */
-    height: 100px; /* Adjust height as needed */
+    height: 150px; /* Adjust height as needed */
     background-image: url('../images/burlap.png'); /* Burlap background */
     background-size: cover; /* Ensures burlap texture covers the header */
     background-repeat: no-repeat;
     background-position: center; /* Centers the burlap texture */
+    display: flex;  /* flexbox for horiozntal alignment */
+    justify-content: space-between;  /* space between logo and nav */
+    align-items: center;  /* center items vertically */
+    padding: 0 30px;  /* padding around header content */
 }
 
 /* Cardboard Layer */
 header::before {
     content: '';
     position: absolute;
-    top: 50px; /* Adjust to control the burlap visibility */
-    left: 50px;
-    right: 50px;
-    bottom: 50px;
+    top: 30px; /* Adjust to control the burlap visibility */
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
     background-image: url('../images/cardboard.png'); /* Cardboard texture */
     background-size: cover;
     background-repeat: no-repeat;
@@ -28,27 +32,28 @@ header::before {
 header .logo {
     display: flex;
     align-items: center;
+    z-index: 1;  /* content stays above cardboard */
 }
 
 header .logo img {
-    height: 150px; /* logo size */
-    margin-right: 10px;
+    height: 100px; /* logo size */
+    margin-right: 15px;
     border: 2px solid #505569;
     border-radius: 10px;  /* rounded corners */
 }
 
 header .logo h1 {
     font-family: 'Sanchez', serif;
-    font-size: 36px;
+    font-size: 28px;
     color: #becec8; /* Adjust color based on branding */
+    margin: 0;
 }
 
 header .logo .tagline {
     font-family: 'Sanchez', serif;
     font-size: 14px;
     color: #becec8; 
-    margin: 0;
-    margin-top: 5px;
+    margin: 5px 0 0;
 }
 
 header nav ul {
@@ -56,6 +61,11 @@ header nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+/* Navigation Menu */
+header nav {
+    z-index: 1;  /* stays above the cardboard */
 }
 
 header nav ul li {
