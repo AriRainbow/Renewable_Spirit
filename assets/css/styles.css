@@ -16,10 +16,10 @@ header {
 header::before {
     content: '';
     position: absolute;
-    top: 25px; /* Adjust to control the burlap visibility */
-    left: 25px;
-    right: 25px;
-    bottom: 25px;
+    top: 20px; /* Adjust to control the burlap visibility */
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
     background-image: url('../images/cardboard.png'); /* Cardboard texture */
     background-size: cover;
     background-repeat: no-repeat;
@@ -43,14 +43,14 @@ header .logo img {
 header .logo h1 {
     font-family: 'Sanchez', serif;
     font-size: 28px;
-    color: #becec8; /* Adjust color based on branding */
+    color: #505569; /* Adjust color based on branding */
     margin: 0;
 }
 
 header .logo .tagline {
     font-family: 'Sanchez', serif;
     font-size: 14px;
-    color: #becec8; 
+    color: #505569; 
     margin: 5px 0 0;
 }
 
@@ -72,7 +72,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #becec8; /* Adjust for your color scheme */
+    color: #505569; /* Adjust for your color scheme */
     font-size: 18px;
 }
 
