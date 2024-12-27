@@ -4,7 +4,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-image: url('../images/cardboard.png');
+    background-image: url('../images/burlap.png');
     background-size: cover;  /* image covers entire background */
     background-repeat: no-repeat;
     background-position: center;  /* centers the image */
