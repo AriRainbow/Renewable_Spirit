@@ -31,6 +31,7 @@ header::before {
 
 header .logo {
     display: flex;
+    flex-direction: column;  /* stack elements vertically */
     align-items: center;
     z-index: 1;  /* content stays above cardboard */
 }
@@ -51,7 +52,7 @@ header .logo .tagline {
     font-family: 'Sanchez', serif;
     font-size: 14px;
     color: #505569; 
-    margin: 5px 0 0;
+    margin-top: 5px;
 }
 
 header nav ul {
