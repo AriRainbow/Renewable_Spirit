@@ -17,16 +17,16 @@ header .logo {
 }
 
 header .logo img {
-    height: 100px; /* logo size */
+    height: 150px; /* logo size */
     margin-right: 10px;
-    border: 2px solid #ebc77c;
+    border: 2px solid #505569;
     border-radius: 10px;  /* rounded corners */
 }
 
 header .logo h1 {
-    font-family: 'Abril Fatface', sans-serif;
+    font-family: 'Sanchez', serif;
     font-size: 24px;
-    color: #ebc77c; /* Adjust color based on branding */
+    color: #becec8; /* Adjust color based on branding */
 }
 
 header nav ul {
@@ -42,12 +42,12 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #ebc77c; /* Adjust for your color scheme */
+    color: #becec8; /* Adjust for your color scheme */
     font-size: 18px;
 }
 
 header nav ul li a:hover {
-    color: #e6783e; /* Adjust hover effect for branding */
+    color: #b8d1c8; /* Adjust hover effect for branding */
 }
 
 
