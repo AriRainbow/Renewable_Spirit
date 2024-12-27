@@ -106,3 +106,8 @@ header nav ul li a:hover {
         margin-top: 10px;
     }
 }
+
+body {
+    background-color: #becec8; /* Sets the page background color */
+    margin: 0; /* Removes default spacing from the browser */
+}
