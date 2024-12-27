@@ -14,9 +14,9 @@ header .logo {
 }
 
 header .logo img {
-    height: 80px; /* logo size */
+    height: 100px; /* logo size */
     margin-right: 10px;
-    border: 3px solid #ebc77c;
+    border: 2px solid #ebc77c;
     border-radius: 10px;  /* rounded corners */
 }
 
