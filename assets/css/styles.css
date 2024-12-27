@@ -1,24 +1,21 @@
 /* Basic Header Styling */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-image: url('../images/burlap.png');
-    background-size: cover;  /* image covers entire background */
+    position: relative; /* Ensures the cardboard layer and content are positioned correctly */
+    height: 100px; /* Adjust height as needed */
+    background-image: url('../images/burlap.png'); /* Burlap background */
+    background-size: cover; /* Ensures burlap texture covers the header */
     background-repeat: no-repeat;
-    background-position: center;  /* centers the image */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-position: center; /* Centers the burlap texture */
 }
 
 /* Cardboard Layer */
 header::before {
     content: '';
     position: absolute;
-    top: 10px; /* Adjust to control the burlap visibility */
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
+    top: 50px; /* Adjust to control the burlap visibility */
+    left: 50px;
+    right: 50px;
+    bottom: 50px;
     background-image: url('../images/cardboard.png'); /* Cardboard texture */
     background-size: cover;
     background-repeat: no-repeat;
