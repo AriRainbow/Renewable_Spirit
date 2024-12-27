@@ -25,7 +25,7 @@ header::before {
     background-repeat: no-repeat;
     background-position: center;
     z-index: 0; /* Ensures this layer stays behind the content */
-    border-radius: 5px; /* Optional rounded corners for the cardboard */
+    border-radius: 2px; /* Optional rounded corners for the cardboard */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
 }
 
@@ -37,7 +37,7 @@ header .logo {
 
 header .logo img {
     height: 110px; /* logo size */
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 header .logo-text {
@@ -48,14 +48,14 @@ header .logo-text {
 
 header .logo-text h1 {
     font-family: 'Sanchez', serif;
-    font-size: 28px;
+    font-size: 32px;
     color: #505569; /* Adjust color based on branding */
     margin: 0;
 }
 
 header .logo .tagline {
     font-family: 'Sanchez', serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #505569; 
     margin-top: 5px;
 }
