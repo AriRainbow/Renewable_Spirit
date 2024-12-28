@@ -110,11 +110,6 @@ header nav ul li {
     }
 }
 
-body {
-    background-color: #becec8; /* Sets the page background color */
-    margin: 0; /* Removes default spacing from the browser */
-}
-
 /* Image Banner Styling */
 .image-banner {
     width: 100%; /* Full-width banner */
@@ -128,4 +123,11 @@ body {
     height: auto; 
     display: block; /* Removes default inline spacing around the image */
     object-fit: cover;  /* image fills the banner nicely */
+}
+
+body {
+    background-image: url('../images/burlap.png'); /* Sets the burlap texture as the page background */
+    background-size: cover; /* Ensures the texture covers the entire page */
+    background-repeat: repeat; /* Repeats the texture for a natural look */
+    margin: 0; /* Removes default browser margin */
 }
