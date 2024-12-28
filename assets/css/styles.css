@@ -122,7 +122,7 @@ body {
 }
 
 .image-banner img {
-    width: 100%; /* Ensures the image spans the width of the page */
-    height: 500px; 
+    width: auto; 
+    height: 250px; 
     display: block; /* Removes default inline spacing around the image */
 }
