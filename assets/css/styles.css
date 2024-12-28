@@ -123,6 +123,6 @@ body {
 
 .image-banner img {
     width: 100%; /* Ensures the image spans the width of the page */
-    height: auto; /* Maintains the aspect ratio */
+    height: 500px; 
     display: block; /* Removes default inline spacing around the image */
 }
