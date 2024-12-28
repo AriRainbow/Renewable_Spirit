@@ -76,14 +76,17 @@ header nav ul li {
     margin: 0 15px;
 }
 
-header nav ul li a {
+.menu-item {
     text-decoration: none;
-    color: #505569; /* Adjust for your color scheme */
-    font-size: 20px;
+    font-family: 'Sanchez', serif; /* Ensures font matches logo and tagline */
+    font-size: 20px; /* Font size for consistency */
+    color: #505569; /* Matches branding color */
+    margin: 0 10px; /* Space between menu items */
+    transition: color 0.3s ease; /* Smooth hover effect */
 }
 
-header nav ul li a:hover {
-    color: #b8d1c8; /* Adjust hover effect for branding */
+.menu-item:hover {
+    color: #b8d1c8; /* Hover effect for branding */
 }
 
 
