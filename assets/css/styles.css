@@ -118,11 +118,14 @@ body {
 /* Image Banner Styling */
 .image-banner {
     width: 100%; /* Full-width banner */
+    max-height: 300px;  /* limits height of banner */
     overflow: hidden; /* Ensures no scrollbars if the image exceeds its container */
+    margin: 0;  /* removes extra spacing around banner */
 }
 
 .image-banner img {
     width: 100%; 
     height: auto; 
     display: block; /* Removes default inline spacing around the image */
+    object-fit: cover;  /* image fills the banner nicely */
 }
