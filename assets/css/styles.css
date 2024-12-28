@@ -114,3 +114,15 @@ body {
     background-color: #becec8; /* Sets the page background color */
     margin: 0; /* Removes default spacing from the browser */
 }
+
+/* Image Banner Styling */
+.image-banner {
+    width: 100%; /* Full-width banner */
+    overflow: hidden; /* Ensures no scrollbars if the image exceeds its container */
+}
+
+.image-banner img {
+    width: 100%; /* Ensures the image spans the width of the page */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Removes default inline spacing around the image */
+}
