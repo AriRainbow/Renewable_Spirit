@@ -131,3 +131,90 @@ body {
     background-repeat: repeat; /* Repeats the texture for a natural look */
     margin: 0; /* Removes default browser margin */
 }
+
+/* What's New Section Styling */
+.whats-new {
+    background-color: #f8f9fa; /* Light background for contrast */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.whats-new h2 {
+    font-family: 'Sanchez', serif;
+    font-size: 32px;
+    color: #505569;
+    margin-bottom: 30px;
+}
+
+/* Flexbox for new items */
+.new-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Ensure responsiveness */
+    gap: 20px; /* Space between items */
+}
+
+/* Individual item styling */
+.new-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px; /* Adjust as needed for your layout */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+/* Image styling */
+.new-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Content styling */
+.item-content {
+    padding: 20px;
+}
+
+.item-content h3 {
+    font-family: 'Sanchez', serif;
+    font-size: 24px;
+    color: #505569;
+    margin-bottom: 10px;
+}
+
+.item-content p {
+    font-family: 'Sanchez', serif;
+    font-size: 16px;
+    color: #707070;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* Link styling */
+.item-content a {
+    font-family: 'Sanchez', serif;
+    font-size: 16px;
+    color: #b8d1c8;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.item-content a:hover {
+    color: #505569; /* Hover effect */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .new-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .new-item {
+        width: 90%; /* Adjust for smaller screens */
+    }
+}
