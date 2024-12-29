@@ -116,6 +116,7 @@ header nav ul li {
     max-height: 300px;  /* limits height of banner */
     overflow: hidden; /* Ensures no scrollbars if the image exceeds its container */
     margin: 0;  /* removes extra spacing around banner */
+    padding-bottom: 30px;
 }
 
 .image-banner img {
