@@ -149,14 +149,14 @@ body {
     font-family: 'Sanchez', serif;
     font-size: 50px;
     color: #505569;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .whats-new h3 {
     font-family: 'Sanchez', serif;
     font-size: 32px;
     color: #505569;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 /* Flexbox for new items */
