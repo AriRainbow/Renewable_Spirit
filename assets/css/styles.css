@@ -203,14 +203,14 @@ body {
 .item-content a {
     font-family: 'Sanchez', serif;
     font-size: 16px;
-    color: #b8d1c8;
+    color: #505569;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 .item-content a:hover {
-    color: #505569; /* Hover effect */
+    color: #3a6367; /* Hover effect */
 }
 
 /* Responsive design */
