@@ -137,8 +137,9 @@ body {
     background-image: url('../images/cardboard.png'); /* Cardboard background */
     background-size: cover; /* Ensures the texture covers the area */
     background-repeat: no-repeat; /* Avoids repeating the image */
-    background-position: center; /* Centers the cardboard texture */    padding: 40px 20px; /* Ensure enough spacing around content */
-    margin: 20px auto; /* Center the section and add vertical spacing */
+    background-position: center; /* Centers the cardboard texture */    
+    padding: 20px 20px; /* Ensure enough spacing around content */
+    margin: 10px auto; /* Center the section and add vertical spacing */
     max-width: 1200px; /* Prevent it from stretching too wide */
     border-radius: 8px; /* Optional: Rounded corners for style */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
@@ -149,14 +150,14 @@ body {
     font-family: 'Sanchez', serif;
     font-size: 50px;
     color: #505569;
-    margin-bottom: 5px;
+    margin-bottom: 0;
 }
 
 .whats-new h3 {
     font-family: 'Sanchez', serif;
     font-size: 32px;
     color: #505569;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 /* Flexbox for new items */
