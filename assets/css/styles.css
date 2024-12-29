@@ -238,3 +238,29 @@ body {
     }
 }
 
+/* Footer Base */
+.site-footer {
+    position: relative;
+    height: 150px; /* Adjust the height as needed */
+    background-image: url('../images/flowers_7.png'); /* Replace with your banner image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Cardboard Layer */
+.site-footer::before {
+    content: '';
+    position: absolute;
+    top: 20px; /* Adjust for overlay spacing */
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background-image: url('../images/cardboard.png'); /* Cardboard overlay */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 2px; /* Optional for rounded edges */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    z-index: 0; /* Keep this layer behind any future content */
+}
