@@ -265,3 +265,19 @@ body {
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
     z-index: 1;  /* above background below content */
 }
+
+/* Footer Bottom Content */
+.footer-bottom {
+    position: absolute;
+    bottom: 0; /* Aligns with the bottom of the cardboard strip */
+    left: 0;
+    right: 0;
+    height: 50px; /* Matches the height of the cardboard strip */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centers text vertically */
+    font-family: 'Sanchez', serif; /* Matches the theme */
+    font-size: 14px; /* Adjust font size as needed */
+    color: #505569; /* Text color matching the theme */
+    z-index: 2; /* Ensures this is above the cardboard */
+}
