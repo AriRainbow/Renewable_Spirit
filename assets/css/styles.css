@@ -237,3 +237,70 @@ body {
         width: 90%; /* Adjust for smaller screens */
     }
 }
+
+/* Footer Base */
+.site-footer {
+    position: relative;
+    background-image: url('../images/burlap.png'); /* Burlap texture for the footer */
+    background-size: cover;
+    background-repeat: repeat;
+    color: #505569; /* Text color matching the theme */
+    padding: 40px 20px;
+    font-family: 'Sanchez', serif;
+  }
+  
+  /* Cardboard Layer */
+  .site-footer .footer-content {
+    position: relative;
+    background-image: url('../images/cardboard.png'); /* Cardboard texture */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px 20px; /* Space around content */
+    border-radius: 8px; /* Rounded edges for the cardboard */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 1200px; /* Center content with width constraint */
+    margin: 0 auto; /* Center horizontally */
+  }
+  
+  /* Social Media Section */
+  .social-media {
+    text-align: center;
+  }
+  
+  .social-media h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between social links */
+  }
+  
+  .social-media ul li {
+    display: inline;
+  }
+  
+  .social-media ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #505569;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media ul li a:hover {
+    color: #b8d1c8; /* Hover effect */
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #707070;
+  }
