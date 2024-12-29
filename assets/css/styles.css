@@ -138,7 +138,7 @@ body {
     background-size: cover; /* Ensures the texture covers the area */
     background-repeat: no-repeat; /* Avoids repeating the image */
     background-position: center; /* Centers the cardboard texture */    
-    padding: 0px 20px 40px 20px; /* Ensure enough spacing around content */
+    padding: 2.5px 20px 40px 20px; /* Ensure enough spacing around content */
     margin: 10px auto; /* Center the section and add vertical spacing */
     max-width: 1200px; /* Prevent it from stretching too wide */
     border-radius: 8px; /* Optional: Rounded corners for style */
