@@ -147,6 +147,13 @@ body {
 
 .whats-new h2 {
     font-family: 'Sanchez', serif;
+    font-size: 50px;
+    color: #505569;
+    margin-bottom: 30px;
+}
+
+.whats-new h3 {
+    font-family: 'Sanchez', serif;
     font-size: 32px;
     color: #505569;
     margin-bottom: 30px;
