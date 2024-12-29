@@ -241,11 +241,11 @@ body {
 /* Footer Base */
 .site-footer {
     position: relative;
-    background-image: url('../images/burlap.png'); /* Burlap texture for the footer */
+    background-image: url('../images/flowers_7.png'); /* Burlap texture for the footer */
     background-size: cover;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     color: #505569; /* Text color matching the theme */
-    padding: 40px 20px;
+    padding: 0;
     font-family: 'Sanchez', serif;
   }
   
@@ -260,7 +260,8 @@ body {
     border-radius: 8px; /* Rounded edges for the cardboard */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     max-width: 1200px; /* Center content with width constraint */
-    margin: 0 auto; /* Center horizontally */
+    margin: 20px auto; /* Center horizontally and add spacing from the top */
+    z-index: 1;  /* keep above background */
   }
   
   /* Social Media Section */
@@ -297,10 +298,16 @@ body {
     color: #b8d1c8; /* Hover effect */
   }
   
-  /* Footer Bottom */
-  .footer-bottom {
+/* Footer Bottom */
+.footer-bottom {
     text-align: center;
-    margin-top: 20px;
-    font-size: 14px;
+    background-image: url('../images/cardboard.png'); /* Ensure copyright section matches cardboard */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px 10px; /* Padding for spacing */
     color: #707070;
+    font-size: 14px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); /* Subtle top shadow */
+    margin-top: -10px; /* Overlaps with cardboard content above */
   }
